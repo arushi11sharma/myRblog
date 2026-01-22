@@ -1,0 +1,31 @@
+---
+title: "DataViz A1"
+df-print: paged
+---
+
+## introduction
+
+this is my A1. i will create data viz and push to the web. it will be part of my website posts folder.
+
+## setup
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+library(tidyverse)
+library(ggformula)
+library(babynames)
+```
+
+## first graph
+
+```{r}
+penguins
+```
+
+```{r}
+penguins %>% gf_bar(~ species)
+```
+
+

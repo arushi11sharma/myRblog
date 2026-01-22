@@ -7,11 +7,32 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/A1/index.html",
+    "href": "posts/A1/index.html",
+    "title": "DataViz A1",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "this is my A1. i will create data viz and push to the web. it will be part of my website posts folder."
+  },
+  {
+    "objectID": "posts/A1/index.html#introduction",
+    "href": "posts/A1/index.html#introduction",
+    "title": "DataViz A1",
+    "section": "",
+    "text": "this is my A1. i will create data viz and push to the web. it will be part of my website posts folder."
+  },
+  {
+    "objectID": "posts/A1/index.html#setup",
+    "href": "posts/A1/index.html#setup",
+    "title": "DataViz A1",
+    "section": "setup",
+    "text": "setup\n\nlibrary(tidyverse)\nlibrary(ggformula)\nlibrary(babynames)"
+  },
+  {
+    "objectID": "posts/A1/index.html#first-graph",
+    "href": "posts/A1/index.html#first-graph",
+    "title": "DataViz A1",
+    "section": "first graph",
+    "text": "first graph\n\npenguins\n\n\n  \n\n\n\n\npenguins %&gt;% gf_bar(~ species)"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -21,10 +42,17 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "myRblog",
     "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "DataViz A1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 22, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 19, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
   }
 ]
